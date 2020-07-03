@@ -20,4 +20,4 @@ class HTMLParser {
   }
 }
 
-export default HTMLParser;
+export default { HTMLParser };
