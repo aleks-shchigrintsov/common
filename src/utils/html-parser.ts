@@ -2,7 +2,7 @@ import jsdom from 'jsdom';
 
 const { JSDOM } = jsdom;
 
-class HTMLParser {
+export class HTMLParser {
   textHtml: string;
   jsDOM: any;
 
@@ -19,5 +19,3 @@ class HTMLParser {
     return this.textHtml;
   }
 }
-
-export default { HTMLParser };
